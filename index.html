@@ -1,0 +1,653 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Preview</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      html, body {
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+        width: 100%;
+        height: 100%;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="w-[1920px] h-[7442.02px] relative bg-white">
+      <div class="w-[1920px] h-[7442.02px] absolute left-0 top-0">
+        <div class="w-[1920px] h-[1136.36px] absolute left-0 top-0 bg-black">
+          <div class="w-[1920px] h-[1136.36px] absolute left-0 top-0">
+            <svg
+              width="8"
+              height="8"
+              viewBox="0 0 8 8"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+              class="w-2 h-2 absolute left-0 top-0"
+              preserveAspectRatio="none"
+            >
+              <g clip-path="url(#clip0_4_6)">
+                <path
+                  d="M0 0.963556C0.164344 1.30428 0.412947 1.59741 0.722264 1.81519C1.03158 2.03296 1.39137 2.16817 1.76756 2.208C1.71614 2.64084 1.50788 3.03984 1.18217 3.32951C0.856463 3.61919 0.435887 3.77946 0 3.78V4.22222C0.435887 4.22277 0.856463 4.38303 1.18217 4.67271C1.50788 4.96238 1.71614 5.36138 1.76756 5.79422C1.3916 5.83384 1.03196 5.96871 0.722661 6.18608C0.413364 6.40345 0.164635 6.69614 0 7.03645L0 8H0.222222C0.222779 7.56416 0.383061 7.14364 0.672743 6.81801C0.962425 6.49237 1.36142 6.2842 1.79422 6.23289C1.83446 6.6089 1.96983 6.96845 2.18756 7.27763C2.40529 7.58681 2.69821 7.83542 3.03867 8H4.96578C5.30624 7.83542 5.59915 7.58681 5.81689 7.27763C6.03462 6.96845 6.16999 6.6089 6.21022 6.23289C6.64263 6.28471 7.04108 6.49309 7.33031 6.81868C7.61954 7.14426 7.77951 7.5645 7.78 8H8V7.03645C7.83566 6.69572 7.58705 6.40259 7.27774 6.18481C6.96842 5.96704 6.60863 5.83183 6.23244 5.792C6.28436 5.35956 6.49284 4.9611 6.8185 4.67188C7.14416 4.38266 7.56445 4.2227 8 4.22222V3.78222C7.56411 3.78168 7.14354 3.62141 6.81783 3.33174C6.49212 3.04206 6.28386 2.64307 6.23244 2.21022C6.60863 2.17039 6.96842 2.03518 7.27774 1.81741C7.58705 1.59963 7.83566 1.3065 8 0.965778V0H7.78C7.77944 0.435838 7.61916 0.856357 7.32948 1.18199C7.0398 1.50763 6.64081 1.7158 6.208 1.76711C6.16763 1.39097 6.03207 1.03132 5.81409 0.72213C5.59612 0.412938 5.30293 0.164405 4.96222 0L3.03778 0C2.69732 0.164579 2.4044 0.413188 2.18667 0.722368C1.96894 1.03155 1.83357 1.3911 1.79333 1.76711C1.36069 1.7156 0.961911 1.50734 0.672411 1.18173C0.38291 0.856109 0.222753 0.435702 0.222222 0L0 0V0.963556ZM4 7.78C3.56411 7.77946 3.14354 7.61919 2.81783 7.32951C2.49212 7.03984 2.28386 6.64084 2.23244 6.208C2.60863 6.16817 2.96842 6.03296 3.27774 5.81519C3.58705 5.59741 3.83566 5.30428 4 4.96356C4.16434 5.30428 4.41295 5.59741 4.72226 5.81519C5.03158 6.03296 5.39137 6.16817 5.76756 6.208C5.71614 6.64084 5.50788 7.03984 5.18217 7.32951C4.85646 7.61919 4.43589 7.77946 4 7.78ZM7.03645 4C6.69598 4.16458 6.40307 4.41319 6.18534 4.72237C5.9676 5.03155 5.83223 5.3911 5.792 5.76711C5.3568 5.71922 4.95458 5.51242 4.66241 5.18634C4.37024 4.86026 4.20868 4.43783 4.20868 4C4.20868 3.56217 4.37024 3.13974 4.66241 2.81366C4.95458 2.48758 5.3568 2.28078 5.792 2.23289C5.83223 2.6089 5.9676 2.96845 6.18534 3.27763C6.40307 3.58681 6.69598 3.83542 7.03645 4ZM4 0.222222C4.43589 0.222766 4.85646 0.383033 5.18217 0.672708C5.50788 0.962382 5.71614 1.36138 5.76756 1.79422C5.3916 1.83384 5.03196 1.96871 4.72266 2.18608C4.41336 2.40345 4.16463 2.69614 4 3.03644C3.83566 2.69572 3.58705 2.40259 3.27774 2.18481C2.96842 1.96704 2.60863 1.83183 2.23244 1.792C2.28436 1.35956 2.49284 0.961096 2.8185 0.671876C3.14416 0.382656 3.56445 0.222701 4 0.222222ZM2.208 2.23289C2.6432 2.28078 3.04542 2.48758 3.33759 2.81366C3.62976 3.13974 3.79132 3.56217 3.79132 4C3.79132 4.43783 3.62976 4.86026 3.33759 5.18634C3.04542 5.51242 2.6432 5.71922 2.208 5.76711C2.16777 5.3911 2.0324 5.03155 1.81466 4.72237C1.59693 4.41319 1.30402 4.16458 0.963556 4C1.30402 3.83542 1.59693 3.58681 1.81466 3.27763C2.0324 2.96845 2.16777 2.6089 2.208 2.23289Z"
+                  fill="#090915"
+                ></path>
+              </g>
+              <defs>
+                <clipPath id="clip0_4_6"><rect width="8" height="8" fill="white"></rect></clipPath>
+              </defs></svg
+            ><img
+              src="image-1.png"
+              class="w-[1912px] h-[1129px] absolute left-[6.99px] top-[6.69px] object-cover"
+            />
+          </div>
+          <div class="w-[800px] h-[333.56px] absolute left-[560px] top-[103.8px]">
+            <p
+              class="w-[63.48px] h-[15px] absolute left-[368.36px] top-0 text-xs font-semibold text-center uppercase text-[#d9d9d9]"
+            >
+              zkGhost
+            </p>
+            <p
+              class="w-[737.65px] h-[87px] absolute left-[31.27px] top-[25.8px] text-7xl font-bold text-center text-[#29c4a9]"
+            >
+              Pegged to zkSync
+            </p>
+            <p
+              class="w-[788.58px] h-[108.39px] absolute left-[5.81px] top-[148.19px] text-base text-center text-white"
+            >
+              Arbitomb is an algorithmic protocol using seigniorage to maintain the peg to ethereum.
+              Arbitomb aims to be another option aside from centralized stablecoins for investors to
+              store their wealth and gain exposure to Ethereum while awarding those who participate
+              in the Arbitrum ecosystem. As always, never invest more than you are comfortable
+              losing.
+            </p>
+            <div
+              class="w-[209.08px] h-[51.19px] absolute left-[295.45px] top-[282.38px] rounded-[100px] bg-[#29c4a9]"
+            >
+              <p
+                class="absolute left-[27px] top-[11px] text-base font-medium text-center text-white"
+              >
+                Join the Cemetery
+              </p>
+              <p class="absolute left-[173.88px] top-3 text-base text-center text-white"></p>
+            </div>
+          </div>
+          <div class="w-[1902px] h-[1129px] absolute left-[2.99px] top-[6.69px] opacity-5"></div>
+        </div>
+        <div class="w-[1920px] h-[747.28px] absolute left-0 top-[1136.36px] bg-[#090915]">
+          <div class="w-[1920px] h-[747.28px] absolute left-0 top-0">
+            <div
+              class="flex justify-start items-start absolute left-0 top-0 overflow-hidden gap-2.5"
+              style="filter: drop-shadow(0px 4px 4px rgba(0,0,0,0.25));"
+            >
+              <svg
+                width="8"
+                height="9"
+                viewBox="0 0 8 9"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+                class="flex-grow-0 flex-shrink-0"
+                preserveAspectRatio="none"
+              >
+                <path
+                  d="M0 1.32293C0.164344 1.66366 0.412947 1.95679 0.722264 2.17456C1.03158 2.39233 1.39137 2.52754 1.76756 2.56738C1.71614 3.00022 1.50788 3.39922 1.18217 3.68889C0.856463 3.97856 0.435887 4.13883 0 4.13938V4.5816C0.435887 4.58214 0.856463 4.74241 1.18217 5.03208C1.50788 5.32176 1.71614 5.72075 1.76756 6.1536C1.3916 6.19321 1.03196 6.32809 0.722661 6.54546C0.413364 6.76283 0.164635 7.05551 0 7.39582L0 8.35938H0.222222C0.222779 7.92354 0.383061 7.50302 0.672743 7.17738C0.962425 6.85175 1.36142 6.64358 1.79422 6.59226C1.83446 6.96827 1.96983 7.32783 2.18756 7.63701C2.40529 7.94619 2.69821 8.1948 3.03867 8.35938H4.96578C5.30624 8.1948 5.59915 7.94619 5.81689 7.63701C6.03462 7.32783 6.16999 6.96827 6.21022 6.59226C6.64263 6.64408 7.04108 6.85247 7.33031 7.17805C7.61954 7.50364 7.77951 7.92388 7.78 8.35938H8V7.39582C7.83566 7.0551 7.58705 6.76196 7.27774 6.54419C6.96842 6.32642 6.60863 6.19121 6.23244 6.15138C6.28436 5.71893 6.49284 5.32047 6.8185 5.03125C7.14416 4.74203 7.56445 4.58208 8 4.5816V4.1416C7.56411 4.14105 7.14354 3.98079 6.81783 3.69111C6.49212 3.40144 6.28386 3.00244 6.23244 2.5696C6.60863 2.52976 6.96842 2.39456 7.27774 2.17678C7.58705 1.95901 7.83566 1.66588 8 1.32515V0.359375H7.78C7.77944 0.795213 7.61916 1.21573 7.32948 1.54137C7.0398 1.86701 6.64081 2.07517 6.208 2.12649C6.16763 1.75034 6.03207 1.3907 5.81409 1.0815C5.59612 0.772313 5.30293 0.52378 4.96222 0.359375L3.03778 0.359375C2.69732 0.523954 2.4044 0.772563 2.18667 1.08174C1.96894 1.39092 1.83357 1.75048 1.79333 2.12649C1.36069 2.07497 0.961911 1.86672 0.672411 1.5411C0.38291 1.21548 0.222753 0.795077 0.222222 0.359375L0 0.359375V1.32293ZM4 8.13938C3.56411 8.13883 3.14354 7.97856 2.81783 7.68889C2.49212 7.39922 2.28386 7.00022 2.23244 6.56737C2.60863 6.52754 2.96842 6.39233 3.27774 6.17456C3.58705 5.95679 3.83566 5.66366 4 5.32293C4.16434 5.66366 4.41295 5.95679 4.72226 6.17456C5.03158 6.39233 5.39137 6.52754 5.76756 6.56737C5.71614 7.00022 5.50788 7.39922 5.18217 7.68889C4.85646 7.97856 4.43589 8.13883 4 8.13938ZM7.03645 4.35938C6.69598 4.52395 6.40307 4.77256 6.18534 5.08174C5.9676 5.39092 5.83223 5.75048 5.792 6.12649C5.3568 6.0786 4.95458 5.8718 4.66241 5.54571C4.37024 5.21963 4.20868 4.7972 4.20868 4.35938C4.20868 3.92155 4.37024 3.49912 4.66241 3.17304C4.95458 2.84695 5.3568 2.64015 5.792 2.59226C5.83223 2.96827 5.9676 3.32783 6.18534 3.63701C6.40307 3.94619 6.69598 4.1948 7.03645 4.35938ZM4 0.581597C4.43589 0.582141 4.85646 0.742408 5.18217 1.03208C5.50788 1.32176 5.71614 1.72075 5.76756 2.1536C5.3916 2.19321 5.03196 2.32809 4.72266 2.54546C4.41336 2.76283 4.16463 3.05551 4 3.39582C3.83566 3.05509 3.58705 2.76196 3.27774 2.54419C2.96842 2.32642 2.60863 2.19121 2.23244 2.15138C2.28436 1.71893 2.49284 1.32047 2.8185 1.03125C3.14416 0.742031 3.56445 0.582076 4 0.581597ZM2.208 2.59226C2.6432 2.64015 3.04542 2.84695 3.33759 3.17304C3.62976 3.49912 3.79132 3.92155 3.79132 4.35938C3.79132 4.7972 3.62976 5.21963 3.33759 5.54571C3.04542 5.8718 2.6432 6.0786 2.208 6.12649C2.16777 5.75048 2.0324 5.39092 1.81466 5.08174C1.59693 4.77256 1.30402 4.52395 0.963556 4.35938C1.30402 4.1948 1.59693 3.94619 1.81466 3.63701C2.0324 3.32783 2.16777 2.96827 2.208 2.59226Z"
+                  fill="#090915"
+                ></path>
+              </svg>
+            </div>
+          </div>
+          <div
+            class="w-[1080px] h-[453.09px] absolute left-[420px] top-[152px] overflow-hidden rounded-[30px] bg-[#eee]/20"
+          >
+            <p
+              class="w-[291.29px] h-[39px] absolute left-[60px] top-[62px] text-[32px] font-bold text-left text-[#29c4a9]"
+            >
+              What is Arbitomb?
+            </p>
+            <div
+              class="flex flex-col justify-start items-start absolute left-[75px] top-[140.19px] gap-[15.78125px] pr-[69.73748779296875px] pb-[0.390625px]"
+            >
+              <p class="flex-grow-0 flex-shrink-0 w-[875.26px] text-base text-left text-white">
+                Arbitromb is a DeFi protocol on the Arbitrum network. Arbitomb’s token value is
+                algorithmically pegged to the price of Ethereum via seigniorage at a rate of 2000:1
+                ETH.
+              </p>
+              <p class="flex-grow-0 flex-shrink-0 text-base text-left text-white">
+                The protocol’s underlying mechanisms are designed to accomplish the following:
+              </p>
+            </div>
+            <div class="w-5 h-5 absolute left-[60px] top-[270.75px] overflow-hidden"></div>
+            <p
+              class="w-[352.73px] h-[22px] absolute left-[107px] top-[250.75px] text-base text-left text-white"
+            >
+              Ensure that a peg of Arbitomb: ETH is achieved.
+            </p>
+            <div class="w-5 h-5 absolute left-[60px] top-[319.53px] overflow-hidden"></div>
+            <p
+              class="w-[535.76px] h-[22px] absolute left-[107px] top-[299.53px] text-base text-left text-white"
+            >
+              It is maintained to establish $ATomb as a mirrored, liquid asset to $ETH.
+            </p>
+            <p
+              class="w-[941.61px] h-[44.39px] absolute left-[75px] top-[348.31px] text-base text-left text-white"
+            >
+              The protocol accomplishes this by introducing unique economic and game-theory centric
+              dynamics into the market through its three tokens and a seigniorage method.
+            </p>
+          </div>
+        </div>
+        <div class="w-[1920px] h-[1511.19px] absolute left-0 top-[1883.64px] bg-[#090915]">
+          <svg
+            width="1920"
+            height="1512"
+            viewBox="0 0 1920 1512"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+            class="w-[1920px] h-[1511.19px] absolute left-0 top-0"
+            preserveAspectRatio="none"
+          >
+            <g clip-path="url(#clip0_4_33)">
+              <path
+                d="M0 1.60418C0.164344 1.94491 0.412947 2.23804 0.722264 2.45581C1.03158 2.67358 1.39137 2.80879 1.76756 2.84863C1.71614 3.28147 1.50788 3.68047 1.18217 3.97014C0.856463 4.25981 0.435887 4.42008 0 4.42063V4.86285C0.435887 4.86339 0.856463 5.02366 1.18217 5.31333C1.50788 5.60301 1.71614 6.002 1.76756 6.43485C1.3916 6.47446 1.03196 6.60934 0.722661 6.82671C0.413364 7.04408 0.164635 7.33676 0 7.67707L0 8.64062H0.222222C0.222779 8.20479 0.383061 7.78427 0.672743 7.45863C0.962425 7.133 1.36142 6.92483 1.79422 6.87351C1.83446 7.24952 1.96983 7.60908 2.18756 7.91826C2.40529 8.22744 2.69821 8.47605 3.03867 8.64062H4.96578C5.30624 8.47605 5.59915 8.22744 5.81689 7.91826C6.03462 7.60908 6.16999 7.24952 6.21022 6.87351C6.64263 6.92533 7.04108 7.13372 7.33031 7.4593C7.61954 7.78489 7.77951 8.20513 7.78 8.64062H8V7.67707C7.83566 7.33635 7.58705 7.04321 7.27774 6.82544C6.96842 6.60767 6.60863 6.47246 6.23244 6.43263C6.28436 6.00018 6.49284 5.60172 6.8185 5.3125C7.14416 5.02328 7.56445 4.86333 8 4.86285V4.42285C7.56411 4.4223 7.14354 4.26204 6.81783 3.97236C6.49212 3.68269 6.28386 3.28369 6.23244 2.85085C6.60863 2.81101 6.96842 2.67581 7.27774 2.45803C7.58705 2.24026 7.83566 1.94713 8 1.6064V0.640625H7.78C7.77944 1.07646 7.61916 1.49698 7.32948 1.82262C7.0398 2.14826 6.64081 2.35642 6.208 2.40774C6.16763 2.03159 6.03207 1.67195 5.81409 1.36275C5.59612 1.05356 5.30293 0.80503 4.96222 0.640625L3.03778 0.640625C2.69732 0.805204 2.4044 1.05381 2.18667 1.36299C1.96894 1.67217 1.83357 2.03173 1.79333 2.40774C1.36069 2.35622 0.961911 2.14797 0.672411 1.82235C0.38291 1.49673 0.222753 1.07633 0.222222 0.640625L0 0.640625V1.60418ZM4 8.42063C3.56411 8.42008 3.14354 8.25981 2.81783 7.97014C2.49212 7.68047 2.28386 7.28147 2.23244 6.84862C2.60863 6.80879 2.96842 6.67358 3.27774 6.45581C3.58705 6.23804 3.83566 5.94491 4 5.60418C4.16434 5.94491 4.41295 6.23804 4.72226 6.45581C5.03158 6.67358 5.39137 6.80879 5.76756 6.84862C5.71614 7.28147 5.50788 7.68047 5.18217 7.97014C4.85646 8.25981 4.43589 8.42008 4 8.42063ZM7.03645 4.64062C6.69598 4.8052 6.40307 5.05381 6.18534 5.36299C5.9676 5.67217 5.83223 6.03173 5.792 6.40774C5.3568 6.35985 4.95458 6.15305 4.66241 5.82696C4.37024 5.50088 4.20868 5.07845 4.20868 4.64062C4.20868 4.2028 4.37024 3.78037 4.66241 3.45429C4.95458 3.1282 5.3568 2.9214 5.792 2.87351C5.83223 3.24952 5.9676 3.60908 6.18534 3.91826C6.40307 4.22744 6.69598 4.47605 7.03645 4.64062ZM4 0.862847C4.43589 0.863391 4.85646 1.02366 5.18217 1.31333C5.50788 1.60301 5.71614 2.002 5.76756 2.43485C5.3916 2.47446 5.03196 2.60934 4.72266 2.82671C4.41336 3.04408 4.16463 3.33676 4 3.67707C3.83566 3.33634 3.58705 3.04321 3.27774 2.82544C2.96842 2.60767 2.60863 2.47246 2.23244 2.43263C2.28436 2.00018 2.49284 1.60172 2.8185 1.3125C3.14416 1.02328 3.56445 0.863326 4 0.862847ZM2.208 2.87351C2.6432 2.9214 3.04542 3.1282 3.33759 3.45429C3.62976 3.78037 3.79132 4.2028 3.79132 4.64062C3.79132 5.07845 3.62976 5.50088 3.33759 5.82696C3.04542 6.15305 2.6432 6.35985 2.208 6.40774C2.16777 6.03173 2.0324 5.67217 1.81466 5.36299C1.59693 5.05381 1.30402 4.8052 0.963556 4.64062C1.30402 4.47605 1.59693 4.22744 1.81466 3.91826C2.0324 3.60908 2.16777 3.24952 2.208 2.87351Z"
+                fill="#090915"
+                fill-opacity="0.5"
+              ></path>
+            </g>
+            <defs>
+              <clipPath id="clip0_4_33">
+                <rect width="8" height="8" fill="white" transform="translate(0 0.640625)"></rect>
+              </clipPath>
+            </defs>
+          </svg>
+          <div class="w-[1080px] h-[248.39px] absolute left-[420px] top-[54px]">
+            <div
+              class="w-[320.39px] h-[194.39px] absolute left-0 top-[27px] overflow-hidden rounded-[30px]"
+              style="background: linear-gradient(210deg, rgba(255,255,255,0.1) 33.44%, rgba(255,255,255,0) 74.95%); box-shadow: 50px -50px 80px 0 rgba(9,9,21,0.35);"
+            >
+              <div class="w-[260.39px] h-[134.39px] absolute left-[30px] top-[30px]">
+                <p class="w-[103.09px] h-6 absolute left-0 top-24 text-lg text-left text-white">
+                  Total Supply
+                </p>
+                <p
+                  class="w-[130.26px] h-11 absolute left-0 top-3.5 text-4xl font-bold text-left text-white"
+                >
+                  56,000
+                </p>
+              </div>
+            </div>
+            <div
+              class="w-[320.39px] h-[194.39px] absolute left-[379.78px] top-[27px] overflow-hidden rounded-[30px]"
+              style="background: linear-gradient(210deg, rgba(255,255,255,0.1) 33.44%, rgba(255,255,255,0) 74.95%); box-shadow: 50px -50px 80px 0 rgba(9,9,21,0.35);"
+            >
+              <div class="w-[260.39px] h-[134.39px] absolute left-[30px] top-[30px]">
+                <p class="w-[122.53px] h-6 absolute left-0 top-24 text-lg text-left text-white">
+                  Initial Liquidity
+                </p>
+                <p
+                  class="w-[125.68px] h-11 absolute left-0 top-3.5 text-4xl font-bold text-left text-white"
+                >
+                  10,000
+                </p>
+              </div>
+            </div>
+            <div
+              class="w-[320.39px] h-[194.39px] absolute left-[759.56px] top-[27px] overflow-hidden rounded-[30px]"
+              style="background: linear-gradient(210deg, rgba(255,255,255,0.1) 33.44%, rgba(255,255,255,0) 74.95%); box-shadow: 50px -50px 80px 0 rgba(9,9,21,0.35);"
+            >
+              <div class="w-[260.39px] h-[134.39px] absolute left-[30px] top-[30px]">
+                <p class="w-[161.64px] h-6 absolute left-0 top-24 text-lg text-left text-white">
+                  ATomb to Eth Ratio
+                </p>
+                <p
+                  class="w-[107.04px] h-11 absolute left-0 top-3.5 text-4xl font-bold text-left text-white"
+                >
+                  2,000
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="w-[700px] h-[435.66px] absolute left-[610px] top-[406.19px]">
+            <p
+              class="w-[430.5px] h-[59px] absolute left-0 top-1 text-5xl font-bold text-left text-[#29c4a9]"
+            >
+              How does it work?
+            </p>
+            <div class="w-[700px] h-[319.97px] absolute left-0 top-[96.44px]">
+              <p
+                class="w-[646.9px] h-[50.8px] absolute left-0 top-[3px] text-base text-left text-white"
+              >
+                The protocol is based on a series of complex interactions, with the behavior of
+                multiple stakeholders deciding the pricing dynamics of the multiple tokens of the
+                ecosystem.
+              </p>
+              <p
+                class="w-[696.25px] h-[108.39px] absolute left-0 top-[76.59px] text-base text-left text-white"
+              >
+                When ATomb price is above the peg, new ATomb is minted through the protocol to
+                inflate the supply, in an attempt to drive the price down towards the peg. The new
+                ATomb tokens are placed into circulation through the Crypt and distributed to ASHARE
+                holders. This increases the demand for ASHARE, thus increasing the price and value
+                of ASHARE tokens.
+              </p>
+              <p
+                class="w-[686.18px] h-[108.39px] absolute left-0 top-[207.78px] text-base text-left text-white"
+              >
+                When ATomb price drops below the peg, the protocol will allow minting ABonds with
+                ATomb (up to a maximum debt limit). This removes Atomb from the total supply,
+                applying upward pressure on the price towards the peg. ABonds can then be redeemed
+                for ATomb at a premium when the price is above peg in the future.
+              </p>
+            </div>
+            <div class="w-[420px] h-[126px] absolute left-[-379px] top-[-1px]"></div>
+          </div>
+          <div
+            class="w-[1080px] h-[511.55px] absolute left-[412.99px] top-[965.05px] overflow-hidden rounded-[76.8px] border-2 border-white/[0.06]"
+          >
+            <div class="w-[432.8px] h-[244.73px] absolute left-[390px] top-[134px]">
+              <p
+                class="w-[21.6px] h-6 absolute left-0 top-[53.98px] text-2xl text-left text-[#29c4a9]"
+              >
+                
+              </p>
+              <p
+                class="w-[238.03px] h-[22px] absolute left-[46.82px] top-[57.41px] text-base text-left text-white"
+              >
+                Total Taxes; 4%
+              </p>
+              <p
+                class="w-[21.6px] h-6 absolute left-0 top-[107.97px] text-2xl text-left text-[#29c4a9]"
+              >
+                
+              </p>
+              <p
+                class="w-[238.03px] h-[22px] absolute left-[47px] top-[110.97px] text-base text-left text-white"
+              >
+                Liquidity 2%
+              </p>
+              <p
+                class="w-[21.6px] h-6 absolute left-0 top-[161.95px] text-2xl text-left text-[#29c4a9]"
+              >
+                
+              </p>
+              <p
+                class="w-[238.03px] h-[22px] absolute left-[47px] top-[164.95px] text-base text-left text-white"
+              >
+                Airdrop &#x26; Marketing: 1%
+              </p>
+              <p
+                class="w-[21.6px] h-6 absolute left-0 top-[215.94px] text-2xl text-left text-[#29c4a9]"
+              >
+                
+              </p>
+              <p
+                class="w-[238.03px] h-[22px] absolute left-[47px] top-[218.94px] text-base text-left text-white"
+              >
+                Burn: 1%
+              </p>
+            </div>
+            <p
+              class="w-[217.4px] h-[22px] absolute left-[431px] top-[26px] text-xl font-bold text-left text-[#29c4a9]"
+            >
+              TOKENOMICS
+            </p>
+            <div class="w-[432.8px] h-[244.73px] absolute left-[744px] top-[134px]">
+              <p
+                class="w-[21.6px] h-6 absolute left-0 top-[53.98px] text-2xl text-left text-[#29c4a9]"
+              >
+                
+              </p>
+              <p
+                class="w-[238.03px] h-[22px] absolute left-[46.82px] top-[57.41px] text-base text-left text-white"
+              >
+                Max Wallet: 3%
+              </p>
+              <p
+                class="w-[21.6px] h-6 absolute left-0 top-[107.97px] text-2xl text-left text-[#29c4a9]"
+              >
+                
+              </p>
+              <p
+                class="w-[238.03px] h-[22px] absolute left-[47px] top-[110.97px] text-base text-left text-white"
+              >
+                Max Tx: 3%
+              </p>
+              <p
+                class="w-[21.6px] h-6 absolute left-0 top-[161.95px] text-2xl text-left text-[#29c4a9]"
+              >
+                
+              </p>
+              <p
+                class="w-[238.03px] h-[22px] absolute left-[47px] top-[164.95px] text-base text-left text-white"
+              >
+                3%: 3 Millions Tokens
+              </p>
+              <p
+                class="w-[21.6px] h-6 absolute left-0 top-[215.94px] text-2xl text-left text-[#29c4a9]"
+              >
+                
+              </p>
+              <p
+                class="w-[238.03px] h-[22px] absolute left-[47px] top-[218.94px] text-base text-left text-white"
+              >
+                Anti-Bot Mesures:
+              </p>
+            </div>
+            <div class="w-[432.8px] h-[244.73px] absolute left-10 top-[134px]">
+              <p
+                class="w-[21.6px] h-6 absolute left-0 top-[53.98px] text-2xl text-left text-[#29c4a9]"
+              >
+                
+              </p>
+              <p
+                class="w-[247px] h-[22px] absolute left-[47px] top-[57px] text-base text-left text-white"
+              >
+                Team Vested: 50 Millions Tokens
+              </p>
+              <p
+                class="w-[21.6px] h-6 absolute left-0 top-[107.97px] text-2xl text-left text-[#29c4a9]"
+              >
+                
+              </p>
+              <p
+                class="w-[238.03px] h-[22px] absolute left-[47px] top-[110.97px] text-base text-left text-white"
+              >
+                Total Supply: 1 Billions Tokens
+              </p>
+              <p
+                class="w-[21.6px] h-6 absolute left-0 top-[161.95px] text-2xl text-left text-[#29c4a9]"
+              >
+                
+              </p>
+              <p
+                class="w-[238.03px] h-[22px] absolute left-[47px] top-[164.95px] text-base text-left text-white"
+              >
+                Liquidity: 800 Millions Tokens
+              </p>
+              <p
+                class="w-[21.6px] h-6 absolute left-0 top-[215.94px] text-2xl text-left text-[#29c4a9]"
+              >
+                
+              </p>
+              <p
+                class="w-[238.03px] h-[22px] absolute left-[47px] top-[218.94px] text-base text-left text-white"
+              >
+                Marketing: 150 Millions Tokens
+              </p>
+            </div>
+            <p
+              class="w-[238.03px] h-[22px] absolute left-[146px] top-28 text-base text-left text-white"
+            >
+              TOTAL SUPPLY
+            </p>
+            <p
+              class="w-[238.03px] h-[22px] absolute left-[485px] top-28 text-base text-left text-white"
+            >
+              TAXES BUY/SELL
+            </p>
+            <p
+              class="w-[238.03px] h-[22px] absolute left-[823px] top-28 text-base text-left text-white"
+            >
+              MAXIMUM WALLET
+            </p>
+          </div>
+        </div>
+        <div
+          class="w-[1920px] h-[1515.98px] absolute left-0 top-[5063.02px] bg-gradient-to-b from-[#090915] to-[#29c4a9]"
+        >
+          <svg
+            width="1920"
+            height="1516"
+            viewBox="0 0 1920 1516"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+            class="w-[1920px] h-[1515.98px] absolute left-0 top-0"
+            preserveAspectRatio="none"
+          >
+            <g clip-path="url(#clip0_4_218)">
+              <path
+                d="M0 0.979181C0.164344 1.31991 0.412947 1.61304 0.722264 1.83081C1.03158 2.04858 1.39137 2.18379 1.76756 2.22363C1.71614 2.65647 1.50788 3.05547 1.18217 3.34514C0.856463 3.63481 0.435887 3.79508 0 3.79563V4.23785C0.435887 4.23839 0.856463 4.39866 1.18217 4.68833C1.50788 4.97801 1.71614 5.377 1.76756 5.80985C1.3916 5.84946 1.03196 5.98434 0.722661 6.20171C0.413364 6.41908 0.164635 6.71176 0 7.05207L0 8.01562H0.222222C0.222779 7.57979 0.383061 7.15927 0.672743 6.83363C0.962425 6.508 1.36142 6.29983 1.79422 6.24851C1.83446 6.62452 1.96983 6.98408 2.18756 7.29326C2.40529 7.60244 2.69821 7.85105 3.03867 8.01562H4.96578C5.30624 7.85105 5.59915 7.60244 5.81689 7.29326C6.03462 6.98408 6.16999 6.62452 6.21022 6.24851C6.64263 6.30033 7.04108 6.50872 7.33031 6.8343C7.61954 7.15989 7.77951 7.58013 7.78 8.01562H8V7.05207C7.83566 6.71135 7.58705 6.41821 7.27774 6.20044C6.96842 5.98267 6.60863 5.84746 6.23244 5.80763C6.28436 5.37518 6.49284 4.97672 6.8185 4.6875C7.14416 4.39828 7.56445 4.23833 8 4.23785V3.79785C7.56411 3.7973 7.14354 3.63704 6.81783 3.34736C6.49212 3.05769 6.28386 2.65869 6.23244 2.22585C6.60863 2.18601 6.96842 2.05081 7.27774 1.83303C7.58705 1.61526 7.83566 1.32213 8 0.981403V0.015625H7.78C7.77944 0.451463 7.61916 0.871982 7.32948 1.19762C7.0398 1.52326 6.64081 1.73142 6.208 1.78274C6.16763 1.40659 6.03207 1.04695 5.81409 0.737755C5.59612 0.428563 5.30293 0.18003 4.96222 0.015625L3.03778 0.015625C2.69732 0.180204 2.4044 0.428813 2.18667 0.737993C1.96894 1.04717 1.83357 1.40673 1.79333 1.78274C1.36069 1.73122 0.961911 1.52297 0.672411 1.19735C0.38291 0.871734 0.222753 0.451327 0.222222 0.015625L0 0.015625V0.979181ZM4 7.79563C3.56411 7.79508 3.14354 7.63481 2.81783 7.34514C2.49212 7.05547 2.28386 6.65647 2.23244 6.22362C2.60863 6.18379 2.96842 6.04858 3.27774 5.83081C3.58705 5.61304 3.83566 5.31991 4 4.97918C4.16434 5.31991 4.41295 5.61304 4.72226 5.83081C5.03158 6.04858 5.39137 6.18379 5.76756 6.22362C5.71614 6.65647 5.50788 7.05547 5.18217 7.34514C4.85646 7.63481 4.43589 7.79508 4 7.79563ZM7.03645 4.01562C6.69598 4.1802 6.40307 4.42881 6.18534 4.73799C5.9676 5.04717 5.83223 5.40673 5.792 5.78274C5.3568 5.73485 4.95458 5.52805 4.66241 5.20196C4.37024 4.87588 4.20868 4.45345 4.20868 4.01562C4.20868 3.5778 4.37024 3.15537 4.66241 2.82929C4.95458 2.5032 5.3568 2.2964 5.792 2.24851C5.83223 2.62452 5.9676 2.98408 6.18534 3.29326C6.40307 3.60244 6.69598 3.85105 7.03645 4.01562ZM4 0.237847C4.43589 0.238391 4.85646 0.398658 5.18217 0.688333C5.50788 0.978007 5.71614 1.377 5.76756 1.80985C5.3916 1.84946 5.03196 1.98434 4.72266 2.20171C4.41336 2.41908 4.16463 2.71176 4 3.05207C3.83566 2.71134 3.58705 2.41821 3.27774 2.20044C2.96842 1.98267 2.60863 1.84746 2.23244 1.80763C2.28436 1.37518 2.49284 0.976721 2.8185 0.687501C3.14416 0.398281 3.56445 0.238326 4 0.237847ZM2.208 2.24851C2.6432 2.2964 3.04542 2.5032 3.33759 2.82929C3.62976 3.15537 3.79132 3.5778 3.79132 4.01562C3.79132 4.45345 3.62976 4.87588 3.33759 5.20196C3.04542 5.52805 2.6432 5.73485 2.208 5.78274C2.16777 5.40673 2.0324 5.04717 1.81466 4.73799C1.59693 4.42881 1.30402 4.1802 0.963556 4.01562C1.30402 3.85105 1.59693 3.60244 1.81466 3.29326C2.0324 2.98408 2.16777 2.62452 2.208 2.24851Z"
+                fill="black"
+                fill-opacity="0.6"
+              ></path>
+            </g>
+            <defs>
+              <clipPath id="clip0_4_218">
+                <rect width="8" height="8" fill="white" transform="translate(0 0.015625)"></rect>
+              </clipPath>
+            </defs>
+          </svg>
+          <div class="w-[1080px] h-[1353.98px] absolute left-[420px] top-[81px]">
+            <div
+              class="flex justify-start items-center absolute left-0 top-0 gap-5 pl-[467.28125px]"
+            >
+              <div
+                class="flex justify-start items-start flex-grow-0 flex-shrink-0 relative pl-[27px] pr-[28.4375px] pt-[54.21875px] pb-[64.21875px] rounded-[72.72px] bg-[#29c4a9] border-8 border-[#29c4a9]"
+              >
+                <p class="flex-grow-0 flex-shrink-0 text-lg text-center text-black">PreLaunch</p>
+              </div>
+              <div
+                class="flex flex-col justify-start items-start flex-grow-0 flex-shrink-0 relative space-y-[-10px] px-[100px] pt-[52px] pb-[19.796875px]"
+              >
+                <div class="flex-grow-0 flex-shrink-0 w-8 h-8 relative overflow-hidden"></div>
+                <div
+                  class="flex flex-col justify-start items-start flex-grow-0 flex-shrink-0 relative gap-[13.796875px] pr-[57.28125px]"
+                >
+                  <p class="flex-grow-0 flex-shrink-0 text-sm text-left text-white">
+                    Set up Socials
+                  </p>
+                  <p class="flex-grow-0 flex-shrink-0 text-sm text-left text-white">
+                    Release landing page
+                  </p>
+                </div>
+              </div>
+            </div>
+            <p class="absolute left-[727.99px] top-[155.68px] text-sm text-left text-white">
+              Open Discord / Telegram
+            </p>
+            <p class="absolute left-[727.99px] top-[198.68px] text-sm text-left text-white">
+              Organic Marketing Campaign
+            </p>
+            <div
+              class="flex flex-row-reverse justify-start items-center absolute left-0 top-[374.27px] gap-5 pr-[442.6875px]"
+            >
+              <div
+                class="flex justify-start items-start flex-grow-0 flex-shrink-0 relative pl-7 pr-[27.625px] pt-[78.8125px] pb-[88.8125px] rounded-[97.31px] bg-[#29c4a9] border-8 border-[#29c4a9]"
+              >
+                <p class="flex-grow-0 flex-shrink-0 text-lg text-center text-black">
+                  Presale / Launch
+                </p>
+              </div>
+              <div
+                class="flex flex-col justify-start items-end flex-grow-0 flex-shrink-0 relative gap-[22px] px-[100px] py-5"
+              >
+                <div class="flex-grow-0 flex-shrink-0 w-[222.69px] h-[212.78px] relative">
+                  <p class="absolute left-[116.69px] top-0 text-sm text-right text-white">
+                    Set presale date
+                  </p>
+                  <p class="absolute left-[88.03px] top-[37.8px] text-sm text-right text-white">
+                    Share Gitbook, Code
+                  </p>
+                  <p class="absolute left-[67.95px] top-[75.59px] text-sm text-right text-white">
+                    Release Dapp / Website
+                  </p>
+                  <p class="absolute left-[140.78px] top-[113.39px] text-sm text-right text-white">
+                    Host Presale
+                  </p>
+                  <p class="absolute left-[174.13px] top-[151.19px] text-sm text-right text-white">
+                    Launch
+                  </p>
+                  <p class="absolute left-[132.63px] top-[188.98px] text-sm text-right text-white">
+                    Lock Liquidity
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              class="flex justify-start items-center absolute left-0 top-[710.73px] gap-5 pl-[460.765625px]"
+            >
+              <div
+                class="flex justify-start items-start flex-grow-0 flex-shrink-0 relative pl-7 pr-[27.46875px] pt-[60.734375px] pb-[70.734375px] rounded-[79.23px] bg-[#29c4a9] border-8 border-[#29c4a9]"
+              >
+                <p class="flex-grow-0 flex-shrink-0 text-lg text-center text-black">Post Launch</p>
+              </div>
+              <div
+                class="flex flex-col justify-start items-start flex-grow-0 flex-shrink-0 relative space-y-[-10px] px-[100px] pt-[52px] pb-[19.796875px]"
+              >
+                <div class="flex-grow-0 flex-shrink-0 w-8 h-8 relative overflow-hidden"></div>
+                <div
+                  class="flex flex-col justify-start items-start flex-grow-0 flex-shrink-0 relative gap-[13.796875px] pr-[31.765625px]"
+                >
+                  <p class="flex-grow-0 flex-shrink-0 text-sm text-left text-white">
+                    Aggressive Marketing Campaign
+                  </p>
+                  <p class="flex-grow-0 flex-shrink-0 text-sm text-left text-white">Weekly AMA</p>
+                  <p class="flex-grow-0 flex-shrink-0 text-sm text-left text-white">Add Utility</p>
+                  <p class="flex-grow-0 flex-shrink-0 text-sm text-left text-white">
+                    Autocompounder
+                  </p>
+                  <p class="flex-grow-0 flex-shrink-0 text-sm text-left text-white">OG Airdrop</p>
+                  <p class="flex-grow-0 flex-shrink-0 text-sm text-left text-white">Launchpad</p>
+                </div>
+              </div>
+            </div>
+            <div
+              class="flex flex-row-reverse justify-start items-center absolute left-0 top-[1047.2px] gap-5 pr-[463px]"
+            >
+              <div
+                class="flex justify-start items-start flex-grow-0 flex-shrink-0 relative pl-7 pr-[27.015625px] pt-[58.5px] pb-[68.515625px] rounded-[77.01px] bg-[#29c4a9] border-8 border-[#29c4a9]"
+              >
+                <p class="flex-grow-0 flex-shrink-0 text-lg text-center text-black">
+                  Utility Ideas
+                </p>
+              </div>
+              <div
+                class="flex flex-col justify-start items-end flex-grow-0 flex-shrink-0 relative space-y-[-10px] px-[100px] pt-[52px] pb-[19.796875px]"
+              >
+                <div class="flex-grow-0 flex-shrink-0 w-8 h-8 relative overflow-hidden"></div>
+                <div
+                  class="flex flex-col justify-start items-end flex-grow-0 flex-shrink-0 relative gap-[13.796875px] pl-[126.734375px] pr-[0.25px]"
+                >
+                  <p class="flex-grow-0 flex-shrink-0 text-sm text-right text-white">
+                    Autocompounder
+                  </p>
+                  <p class="flex-grow-0 flex-shrink-0 text-sm text-right text-white">Aggregator</p>
+                  <p class="flex-grow-0 flex-shrink-0 text-sm text-right text-white">Launchpad</p>
+                  <p class="flex-grow-0 flex-shrink-0 text-sm text-right text-white">Detonator</p>
+                  <p class="flex-grow-0 flex-shrink-0 text-sm text-right text-white">Lottery</p>
+                  <p class="flex-grow-0 flex-shrink-0 text-sm text-right text-white">NFT’s</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <svg
+          width="1920"
+          height="864"
+          viewBox="0 0 1920 864"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+          xmlns:xlink="http://www.w3.org/1999/xlink"
+          class="w-[1920px] h-[863.02px] absolute left-0 top-[6579px]"
+          preserveAspectRatio="none"
+        >
+          <rect width="1920" height="863.016" fill="#090915"></rect>
+          <rect width="1920" height="863.016" fill="url(#pattern0)"></rect>
+          <rect width="1920" height="863.016" fill="url(#paint0_radial_4_274)"></rect>
+          <g clip-path="url(#clip0_4_274)">
+            <path
+              d="M0 0.963556C0.164344 1.30428 0.412947 1.59741 0.722264 1.81519C1.03158 2.03296 1.39137 2.16817 1.76756 2.208C1.71614 2.64084 1.50788 3.03984 1.18217 3.32951C0.856463 3.61919 0.435887 3.77946 0 3.78V4.22222C0.435887 4.22277 0.856463 4.38303 1.18217 4.67271C1.50788 4.96238 1.71614 5.36138 1.76756 5.79422C1.3916 5.83384 1.03196 5.96871 0.722661 6.18608C0.413364 6.40345 0.164635 6.69614 0 7.03645L0 8H0.222222C0.222779 7.56416 0.383061 7.14364 0.672743 6.81801C0.962425 6.49237 1.36142 6.2842 1.79422 6.23289C1.83446 6.6089 1.96983 6.96845 2.18756 7.27763C2.40529 7.58681 2.69821 7.83542 3.03867 8H4.96578C5.30624 7.83542 5.59915 7.58681 5.81689 7.27763C6.03462 6.96845 6.16999 6.6089 6.21022 6.23289C6.64263 6.28471 7.04108 6.49309 7.33031 6.81868C7.61954 7.14426 7.77951 7.5645 7.78 8H8V7.03645C7.83566 6.69572 7.58705 6.40259 7.27774 6.18481C6.96842 5.96704 6.60863 5.83183 6.23244 5.792C6.28436 5.35956 6.49284 4.9611 6.8185 4.67188C7.14416 4.38266 7.56445 4.2227 8 4.22222V3.78222C7.56411 3.78168 7.14354 3.62141 6.81783 3.33174C6.49212 3.04206 6.28386 2.64307 6.23244 2.21022C6.60863 2.17039 6.96842 2.03518 7.27774 1.81741C7.58705 1.59963 7.83566 1.3065 8 0.965778V0H7.78C7.77944 0.435838 7.61916 0.856357 7.32948 1.18199C7.0398 1.50763 6.64081 1.7158 6.208 1.76711C6.16763 1.39097 6.03207 1.03132 5.81409 0.72213C5.59612 0.412938 5.30293 0.164405 4.96222 0L3.03778 0C2.69732 0.164579 2.4044 0.413188 2.18667 0.722368C1.96894 1.03155 1.83357 1.3911 1.79333 1.76711C1.36069 1.7156 0.961911 1.50734 0.672411 1.18173C0.38291 0.856109 0.222753 0.435702 0.222222 0L0 0V0.963556ZM4 7.78C3.56411 7.77946 3.14354 7.61919 2.81783 7.32951C2.49212 7.03984 2.28386 6.64084 2.23244 6.208C2.60863 6.16817 2.96842 6.03296 3.27774 5.81519C3.58705 5.59741 3.83566 5.30428 4 4.96356C4.16434 5.30428 4.41295 5.59741 4.72226 5.81519C5.03158 6.03296 5.39137 6.16817 5.76756 6.208C5.71614 6.64084 5.50788 7.03984 5.18217 7.32951C4.85646 7.61919 4.43589 7.77946 4 7.78ZM7.03645 4C6.69598 4.16458 6.40307 4.41319 6.18534 4.72237C5.9676 5.03155 5.83223 5.3911 5.792 5.76711C5.3568 5.71922 4.95458 5.51242 4.66241 5.18634C4.37024 4.86026 4.20868 4.43783 4.20868 4C4.20868 3.56217 4.37024 3.13974 4.66241 2.81366C4.95458 2.48758 5.3568 2.28078 5.792 2.23289C5.83223 2.6089 5.9676 2.96845 6.18534 3.27763C6.40307 3.58681 6.69598 3.83542 7.03645 4ZM4 0.222222C4.43589 0.222766 4.85646 0.383033 5.18217 0.672708C5.50788 0.962382 5.71614 1.36138 5.76756 1.79422C5.3916 1.83384 5.03196 1.96871 4.72266 2.18608C4.41336 2.40345 4.16463 2.69614 4 3.03644C3.83566 2.69572 3.58705 2.40259 3.27774 2.18481C2.96842 1.96704 2.60863 1.83183 2.23244 1.792C2.28436 1.35956 2.49284 0.961096 2.8185 0.671876C3.14416 0.382656 3.56445 0.222701 4 0.222222ZM2.208 2.23289C2.6432 2.28078 3.04542 2.48758 3.33759 2.81366C3.62976 3.13974 3.79132 3.56217 3.79132 4C3.79132 4.43783 3.62976 4.86026 3.33759 5.18634C3.04542 5.51242 2.6432 5.71922 2.208 5.76711C2.16777 5.3911 2.0324 5.03155 1.81466 4.72237C1.59693 4.41319 1.30402 4.16458 0.963556 4C1.30402 3.83542 1.59693 3.58681 1.81466 3.27763C2.0324 2.96845 2.16777 2.6089 2.208 2.23289Z"
+              fill="black"
+              fill-opacity="0.5"
+            ></path>
+          </g>
+          <defs>
+            <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
+              <use
+                xlink:href="#image0_4_274"
+                transform="matrix(0.000520833 0 0 0.00115873 -0.166667 -0.131507)"
+              ></use>
+            </pattern>
+            <radialGradient
+              id="paint0_radial_4_274"
+              cx="0"
+              cy="0"
+              r="1"
+              gradientUnits="userSpaceOnUse"
+              gradientTransform="translate(960 431.508) rotate(24.2033) scale(1052.52 787.153)"
+            >
+              <stop stop-color="white" stop-opacity="0"></stop>
+              <stop offset="0.6" stop-color="#090915"></stop>
+            </radialGradient>
+            <clipPath id="clip0_4_274"><rect width="8" height="8" fill="white"></rect></clipPath>
+            <image
+              id="image0_4_274"
+              width="2560"
+              height="1090"
+              xlink:href="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAA0JCgsKCA0LCgsODg0PEyAVExISEyccHhcgLikxMC4pLSwzOko+MzZGNywtQFdBRkxOUlNSMj5aYVpQYEpRUk//2wBDAQ4ODhMREyYVFSZPNS01T09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT0//wgARCARCCgADASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAECBv/EABUBAQEAAAAAAAAAAAAAAAAAAAAB/9oADAMBAAIQAxAAAAHmxYAAoAACgACgAKALKCkoCgCgUAFApKApKABRFEoCkURRFEURRFEUQEURZQARFEUSURRARRFEAlEUSURRAJRFgAlEUQEUQAEWAACURYAAARRAAAAIAAAAAAAAAAACUQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFAABQAAKAAoAAoCgBQKAKCgKAKAoAUSgUSgAURRKAAAACURRFEUSURRFhFEUQUlEVEWEURYRRFgAlEWEUQCURYAJRAARYAJRFgABFEAABFgFBAACWAAAAAAAAAAAEUQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFAABQACgAFAAoAUAoBQKCgKCgpKAoKSgUSgKRRFABRFEURRFEURRARRFEBFEUSURRJqEURYARRFhFEWEUQCURYJRFglEWAEWBYJRFgBFEAABFgABFEWAAACWAAAAAAAAAAACWAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFAAsoAAsoAKAAUCgKAKCgoCgoKAKCgKSgUCkUAFEURQlEoShFEURRFEWCURRFhFEUSURRFhFEWEURYJRFglEWEURYARRJRFgBFgBFgAlEAlEWAAEUQAACWAAAAEAAAAAAAAAAlgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABQAKAAFAAoAKAoAoLKCgoKCgoKCgpKBQUSgUSgURQKRRFEURRFEURRFEmoRRFhFEUSURVSVEUQEURYRRJqEUQEURYRYJRFgBFglEWCURYJRAJRFgBFgAAlEWAAEUQAAEUQAAAAAAAACWAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFABQALKACgAoAoLKCgFKAUoKCgoKCgpKpKBRKpFBRFEoAFEURRFEURRARRFElEUSahFVJRFEWRFEmoRRJRFElEWEVUEJRJRFglVFkJRARRARRARRARRAJRAAARYAAJRAAARYAAAAAAAAAJRAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAUCygACgAsoAoCgoAoKCgoKoKChQKFBQKCkqkoCkUFEURRKpFEURRFEmhlRFEmoRRFhFEUZURRlRFhFEmoRRJRFhFEWEUSUQEVUlRFhFEBFElEWCUQCURYJRFglEAABFgAAlgAABFEAAAAAAAAAlgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABQLKAAUAFAKAKAosoKLKCigoKoKCigoKCqSgUCkqkUSqRRFEWkURRFEUZahFEUSURRlVRRJURRJRFGVEmoRRJRFElEmoRYJRFhFhFVARZEUSUQCURYRYARYARYARYJRFgABFgABFgAABFgAAFBAAAACWAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFAoACgCygCygoKAUFBQUososoqgooKpKoKCgoKSgUFEoFEUSgAALUlCURURRlVRRlRFGVRFVlRJqEUSURRlUSahFhFElEmpUWEVElEmoRYJRJqEWEUQEWCUQEWCURYAQAEAABFgABFgAABFgAAAAAAAlgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABQUACygCygFAoLKLKLKKCyihSiyiqLKKCqKBQqkoKpFBRKtRRLURRFEaEURRJoSaGVEUZVUWEURRlRJqEUZURRlRlRFkRRJqEmoRYRVZUSakRYRRJRJRARYJRJRAJRJVQEWQBAARYJRFgABAAJRAAAJRAAAAAAAJYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAUFAAoAUAoBQKChSgFsooKosoqigqigqgoUFBQUFEqkUFEURRKtRRFEURUZVUUZURRlRJqEUSURRlUSahFGVEmpUmpEUSUSahJqEWEWVFElRJRFhFhFglElElEWCUSVUBFkARYAQAEABFgAAlgAABAAAAAAAJRFgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABQUAFAKALKLKCgoKLKLKUoKKosoqihbKKoKKCqCkqhQKRVFEqxFVFQKRRFEVUUZURRlRFGVEWEUSahFGVElEUZUZUSVEmoSalRYRRlUSVUlEmpEWEWEWEWEUSUSURYQUlRJVQEWQBAJRAJRAARYAARYAARYFgAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAUoABQLKAUCgsosooUFsooUooWylKKosoqigqgooKCgVRQKRbEVUUFRFEURVRRlRFGWoRRJUSalRRlqEWEUZahJqEWEUZUSVElVJRJqEBFkRYRYRVZVGVixZYlRJRARYQLFiJRJZQRFglEWCWAEWAAEWACUQAAAEAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAWygAoAoAUFAoUFsosooUoqiylKKoqizQKKoKKoKFUVAtFEqkUCkURQURRFGWoRRFElLFEmpEmoRVklEmoRRlRJSyahJqJFhFGVRlRlVZUZUSVElElLJRJVmVElElRJRASUslWQQlglEBARRBUWARAAJRAARYAAJYAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFsoAsoBQLKCgFKLKKChbKKospbKUoqiqKFoUoqgooKKqpKtsqpFBRKqxRFAApFEBFEUZURRlRFhFGWoSahFhFGVElElEmpEmoRZUmoSahFkSahJqVFhJqRJqElVJRJUklWyVElElJJRJRARYJYJRAJYBbBIlEABFgAlgAABAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFsoAsoBQLKLKCiyihQWylBbKWyqqos0qiWqqqKFspSopaqwKKBQVRQKRQURRFpFEUSaGVEmhlRFhFEmoRRlRJRJoZUZUZUZUSUSUSUZUSUSUZVGVVlYRYRYSakSVUlRJRJVSVGVlJUklElEBBbAiWQlEWCWAEWACUQAEAAAlECggAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABbKAUAoAoKCyihSiyiqLKUqrKWylspbKWylqiylspSilUooKpKoKSqSgUCxFVFRFEVUURRJqEUSahFGVEWEUZUSahFhFGVhFhFGVGVhFGZqEWEmoSahJRJRlYRYSakQElVJUSWVFkRYJYkWEWUlSyVUCRZEUQEWAEABFgAllBAAEAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAaABQLKAUFAoUosospbKLKtsqWyrSlspbKWylstWylspbKKooKoKChQUCkoFApFEURRFEUSURRJRFhFEmoSahFGVEmoSahJqEmoSahJqEmoSahJRJRlYRYSahJRJRlYRYSakSVUlRlYRYRYQEWEFRZCWCWCUkCwIlLAkWACWAKCQUEAJYAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGgAUCygFBQUosqqFKLKWyiqKos0KtNSxbLVspbKWylKKooUoKKCgoKBQAUSgAWACURRARRJRFhFGVEmoRYRYRRlRlRJRlRlYRYRYSahJqElElGZqElElhFhFhJUSVWVhBEBJRJVSVElEBAQEWEUQECJYAAsACRYAAJYAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGgAUCygFKAWyqspQWylBbKWylspbKWy1bNDUo1KWylspbKUooUooUoKCgpKBRKBRFEURRFElEUSURRJRFhFGVElEmoSahJqEmoSahJRJqElElGVhFhJqElhFhJqElGVhFhJqGVhFhJRJUSWEWVFhFkRYJYJYJRAQIlgBAoEWAIlEAAIAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGgAUCgsosososqqFKLKWylsoqihao1LVssWlWqNSlKWyiqKFKKCqCgoKCkoCkUSgAAlEUQEUSURYRRJRFhFhFhFGVGVhFGVhFhJqElElGVhFhJqGVhJqElElhJqElElhJRJYRYRZElVJRJUSWUEQEBFhFgCQEWKCJYoAJAAJRAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGgCgFAsososqrKUospSiylspbKWylspbLV1nRbKWylqiqKoqiylsooUqiooCgqygUgKKRRFEWCUkWEURYRRJRFhFglElElElElElElGVGVhJqElElGVhJRJYRYSUZWElElglhJYJYRYSVEllRYJZEWVBCWEWCWCWAEWWJZKABAAkAABAAAAAARYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAaAsoBQLKLKqyihbKLKWyiylspbKWylpV1KWyls0WylspbNCzQotspSiqgqigoKCgpKAApFEURYARRARYRRARYJSSUSUsmoSahJRJRJSSUZWEWEmoSWLFiSUSWEmoSUZWElGVhASWElElGVhFhJRJUSWCWCUSUSUQEAllBEACRYAJYAAJRAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGgLKAUCyqsospQWyiylspbKUF1KNZ0Wy1bKXUpbKWzRbKtsqWyrbKWyiqLKKoKCgoKAFABRFEURRARRARRJRFhFglElElEWEWEWEBJRJYJYRYSUSWEWElJlYSahJYSahJYSahJYRYSWEBJRJYRYQEESUQEBARYRYAQEACJYAJYAAJYAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGgLKAUCyrQKFKLKUFspbKWylspbLVspapbKXWdLbKWzQqjUoqiqKFKKFBSgoKSgUAAFEURRARRFhFEBFhFElElEWEWEBFhJRJRJYRYRYSUSWEmoSUZWJJRlYSUZWElGVhJYRYSWCWEBJRJYJYRYRZCWCWCWIligQWJZACUQCUQACWAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABoCygFBUq0FBbKLKWyihbKWy1bKWyls0Wylsq6spdZ0WylspbKWylspbKKFsooUoBQKApKAApFgAlEWAEUSUQEUSUSUSUQElElElElglhFhJRJYRYSUZWElEliSahlYSUZWElhFhJYRYSUSWCWElEBJZCWUlkJYAkCwCWIlEABAAQAAEAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAaAsoBQqhQUFsooWylBbKWy1bKXWdDUpbKurKWymrKWyl1nRSlsoqihbKUosooLKLKCgBQAAAAlEBFEAlElEBFhFglElElElElhFhFhJRJYJYSUSWEmoSWEmoSWEmoSWJJYqWEliRYSWEBJYJYRYQEESWAEBAQEAllgSwAEACQAAEAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAaAsoC0FBQUFspQWylBbKWy1bKaspbKtspqyls0Wyl1nRbKWylspbKWyihbKKFC0FAoCgAqSgAlEABAJRARYJRAQEBARYRYQEBJYRYRYSUSWEBJYQElhASWElElhJYSUklhJRlYQElElhARZEFQRAQEBAJYAQAEACQAAEWAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABoCygLQUFBQWylBbKUFs0LLVqlspbKts0WymrKWymrKWylspbKWylspbKLKtsoKLKLBQUAoAAAABAARYRYAQEWCWIlglglElglglhFhJRJYRYSUSWEWElhJqElhJYQElhASWJJRJYSWCWEBJYJYJYRYQEWRAQCWAEBFgBAAiWAKCQAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABoCygLQUFBQWylBbKWyjWdDWdVUpqyrbKXWdFspqylspqylspbKWi2ylspbKLKWyiyiyiygFFLLAAAAAEWACWCUQEWCWAEBAQJASWCWCWEBASWEWElglhJYJYSWEWElhJRlYklhASWElglhASUSWCWCWEEJYJYJYJYAQCWAIlgAlgAAlgAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAaAsosLQUFBQWylBbKWylstNZ0ULqylspdZ0WymrKXWaaspbKWzS0GrmlspbKLKWyiyiy0sosRRVCggQWFgAJYAJYAQCWCWAEBAQEWJAQElglhASWCWElglhJYJYSWEWElhFhJYSWCWJJYsliJYQEBJYJYJYQQlglglglgBAJZQSJYAJYAAQAAUEAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGgLKoFBQUFBbKUFstWyxbLTWaWi6spbKXWdFspqylspqylsq2ymgWylspbKLLVssqy0sosFKAVKAAAAAJYAJZCWIAlglgBAQEBAQECSWCWEBJYJYQElhJYJYSWCWElhFhJYSWCWElhJSSWEBASWCWCWEWCWQlglglgBAJYAiWACWAACWAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABoCyiwtBQUFBbKUFspRWrnQsq2ymrKWyl1nRbKaspbKaudLbKWylspbKWylsLbKUVQWwWwUFSiwUAAAAgAAgJYAIQliAsFkEQEBAQElglhASWIlhASWEIJYSWEWElggSWElglhJYkBJYQEBJYJYJYJYJZCWCWAgBBSWQCJYAJYAAIAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABoCygLQUFBQWylSlspRVspbKtspq50Wylspqyl1mmrKtspq50WylspbKWwukpbBbLVBQUChUFAsFAABAAEAhYAgBAJZCWUlkgEIJYJYJYQEIJYJYklglhJYJYSWEBJYSWCWElhASWEIJYkBASWCWCWQgJYJYJYJYAQWJZKCJYAJYAAJYAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGgLKAtBQUChbKLKWy1QWyrbKWyl1mmrnRbKaudFsq6udFspbKaSmrmrdZppKWylS1bBbKLBbBbBUosFSgAAAhYAhYAEAgAIEAgJZCCICBCCWCWCBCIlhCCWCBJYSWCBJYQElhASWElgliQElglglggQQlghSEJYAQCWAIlgAlgAAgAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGgLKoFAspQLKWwWylsGktWyrbKWylspdZpqylspqyrdZpq50WyrbKWylspbm1pKWyiylSlSlSiwUFQUFQVBYABBYACAIAICAIAQkCAiJYICBAQglhAklhASWEBJYQglhCCBJYQglggQJJYICWEBAQRBUEJYBUERYBUCBCWAAEWAUAEAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGgLKoFAspUospQWylBbLVsq2ylspbKWylspqyrdZpq50Wylsq6uaXWbVspbKWwWylSlSlsFBUqrBQAVBUFQACJYACAAgEAgAgIRAQgICIlggIEIJYIiJYIElggSWEIJYQglhJYQEIJYiWEBAQEBAQEBBAgBAAQAIlgABFgAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAaAsqgUCyiyiylBbKVLVsq1KaSl1ml1mmrKWyl1mrqylspq5q6udFudVbBq5pbKWwaSluaWwtsFsFBUFBUFQUhUFgCFgAhAAgEACAgICEIVAIkCAiJYIElggIiJYQElgiCWCBJYIglhASWIlhAQEIJYAQgBAQQlgBAAQAJAoAIgAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGgLKoFAsososospbKLLVsLbKWylspbKWyl1mrq50WymrmrqylspbLVspbmmkpbmmkq2wWwWwWwVKVBQLBUFQVAAIVAAQCJYAgIWAgICEIUgIRAQiJYICICCWJCCWEBJYQElhASWElElggQElgIiWCWCWCWAgJACWAEACQAEAABAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGgqygFAsososospRVsqrKWylspbKWwaudFsq2ymrmmrKtspbKWy1bKWwaSrbBpKW5pbmluaUFQWwVBbBUFQVBYAhYAhUACAQhAAgICAgICAhEIgggICIJYIiCCWEIJYQglhCCWCBASWCCJYIEAgICWQlgFQQlgACQAEAABAoIAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAaCgUCyiwWygFsospRVsq2wauaWylspbKtspq5pqyrbKWymkpbLVspbmmkq2wWwaSlSlSlSlQUCwVBQAAEFQAEFgEFiFgEIQCAhYCAgIQiAgIiAgIgIIEIiWCBCCBCCWEBJYJYIJAQEIAQEAhCWAVBCAAlgCAQAAgAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAaCgUCygFBQWyiylS22waBbKWyluaauaurmmrKWyrdZppKXWbVspbKW5q6SluaWwWwWwaQWwVKVC25pUFQVBUFQghUFgEFgEFiFiFiJUAgICFiAgJAggIIgQglggIiJYIEIJYIglglhAQgIJYiWCWAgIAQRAJZQRAAIACWIAAlgAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAaCgUCygFBQUFsosttSlspbBpKWylsq2ylspdZq6uaaubWrmmkpbKtuaWwaSluaW5pbC25pUpUFBUFQVKLBYBBUAIQWAQWIVAIWIWIlgCAgQCBEICAiIICCWCBCIIJYIEIIEBJYJYIEAgkBAICAlkCACAIABUEAiCggCAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAaCgUCygFSlBUpRVsLbKWwWylspbmmkq3WaXWaauaurmmrmmktWylsLpKWwWwaSlSrUpUFsFSlQVKVBUFQVBUBBUBCVBYBBYhYBAIliFiFgIhYhYQgIgICIIICICIIJYIEIJYIEBCCWAglgliCAgBAIQBAJYACUEAkAAAgAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGgoCygFAsososostVKtsFspbBbKWylsq25pq5q6uaauaaSmrm1bBq5q2waSluaW5q2wWwW5pUGkFSlQVBUFQVBUABBYIQVAQWAQWIWIlgEBAQCRYhYgICIQCCAgQiCAggQEIICAgQCBAQIgICWACAIAQQAhQQCQAAEAAAAAQWAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABoKAsoBQLKLKLKLLSyrUpbBpKWwaSrbKWyludLbmmrmmrm1bKWyrUpbmlsGkpUq1BpBpBbBUGkFQVBQACFQVAIVCWAQVAQEFgEIQCFgICEIBAgIIgIhYhYgIgggICBCAglggCCWCWIICAEAhAUgCQAFQQCJYoIAIAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGkqgLKAVKLBbBQUVbC2ylSlsFspbC6uaaSlsq2wauaaubVspbmrpKW5pbmlsFsLpBbBUpUFsFQVKLBUFQWAIVBUFiFQhBUAhYBAQlgEBAQCQIWICFiIICAgICIgICAgQEICAgICIAgICWAgAlgEIACWUAEkCggCWAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABbKoCwUCygFBQUFS22wWyiylBbKtsGrmlsq2yluaaS1bBq5q2waSlSluaVKtQaQaQVKVBUGkFQVBUFQWIVBUFgEFghBYhUAhYiVAQCFiFhCAQICCEBAgECCICAgICBCAEIAIIlgIAQCWQFIAkAAIAWJZKCAAIAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABbKoAFAsoBUpUostqyiylBbBbKVKtspbBpKtspbmmktWwukpbmluaWwWwtsFsFSlQaQW5GkFQVBUFQVBUFQEFQEJUAhUBBYhUIQWIWIWEEAgICFiJYhYCAiJYCAgICAgICAgIAgIgCAIACACEAAQAWRZKCACAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABbKAoFABQLKLKBbQWyiyiylSlsLpKWwauatspbmlstW5pbKtSlSluaW5q1KVBbBbmlQWwVBUFQVBUFQVBYBBUJYhUFiFQEFQEJZBYBEEAhYCAQEIICAgIlgICAgICAgIAgCQCAlgAgAQQIAAIAAJAAAJYAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFsoCgLKAUCwWwUVUq0FsFsFspUq25pbKW5q2yluaWy1bmlsLbBpBpBbC2wW5pUFsFQaQVBUFQW5FQVBUFQEJUFgEFgEFiFQEJYBARABAQEAiWIWAgEAiCFgICAgIBAIAIIlgIAJYAQQAgACUAEggAAAgAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFsFCgLKALKAUFAsW2yiylSlSluaWwukpbC2yluaWwaS1bmrbmlsFuaW5pUq1BbmlQW5pUFQVKALBYABBUJYhUFQEFQCFiJUFiFQERYBAQCFghAQCFiFghAIWIWAgICAIAIAgIgAgAlgAhAAEAACQAAKliAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFBQoCwUCwUCyiygW0FBbBQWwWyrUpbBbKtuaWwWxWkpUq1KVKVBbBUq1BUosFQVBbBUFQVBUBBUJYBBUFiFQWIVCCFQERYhUAhYhYBCCFQEAgCIBAIWAgIAgAgCAJAJYACAQQAAJYAAIAIACpYgAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABQUKABQAUCwWwUWrKVKVKVKLKVKtsFsGkq1KW5pbFWwaQtsFuaW5pUFsFQWwVC1KLBUFQVBUFQliFQVAQVBUAhUIQWJFQAEFiFgEAhUIQCFgEIIAEAhYCAgCABACQKIgAhYAkAACAACWAIAAlgAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAUCyqAAsoAsoBQLLasFsFBQUFuatsFsGkpUq1KW5pUtW5pbmrUosFSlQW5pUFSiwVBUFQVBUFQWAQVBUBBUBCVEAEFiFQCFgCFiJUAhYBAIlgEABAIAIAgAgCFgiAAIACAQAIAACAAICgkAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAUCygKAsoAsFAsoFULUososFsFsFsLpKLKVKtSlSlSlRVsLbBUpUFBUFQWwVBUFQVBUFQVBUFiFQVAIlQVEEFQEFgCFQEFghBYBAIWCEFgCACAIAIAhYAiAJYACAAgAECAAAgACAoAiAAAAAAAJYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAUKCUKABQAUAFAstqwUFSlSlSiyrUpUpUpUq1KLBbBUpUW2wW5pUFuaVBUFQUAAAAAhUFQWIlQVAJFQAEFgCFQCFgghUAhYBACEFgEAhYAgAQAIAIQAEAAgEACAAACAAAAAggAAAAAACWAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFCglCgAVKALKAVKBbQLKLBQUFSrUpUpUpULpBbBQVBbFVKVBUq1BUFSlQVBUFQVBUFQCJUFQEoRFQAEFgEFQCFQghUAhUABCAEAhUACAIWAIWAIgACAAQABAlBAACAAAABKgCAAAAAAAJYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAUACyqAAsFABQLBRSwtBUososFsFC1KVKVKqwWwVKVBRVQVKVBUFsFQtQVBUFQVBUJUFQCRUFQWAQVBYAhUAiVBYBBYAhYIIVAIVAAQAIAhYABCACAAhYAQFEAAQAgAAAACIAAAAAAAAAlgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABQAqygAAFSgCygFSgW1KAUFSiwWwtBUpUFsLQVBbBUosFQUUsFQVBUFBUFQVBUABEVBYABBUFgEFQghUFgCFQAEJYAhYABAAQAEAAhYAIIACAAQFIAAQAgAAAAhAAAAAAAAAAAlgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABQAqwlCgALBQAVKAVKBbUosoBUososLQVKLBQtQUFQVKLBUFBUVURUFQVFUhQCFRFQWAIVBUAhUFgAghUABBYAiWAAIVAAQAEAAhYAAiWAAgAACQFAACQAAAAAggKCAAAAAAACFQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAUAKBUoAABUoAsoAsFFqwUCyiwVKLBbC0CwUFQWwtQUAFQVBUoBUFQVBUFQVBUABBUFgAghUFgCFQACFgACJUAAhYABBYBBUAAhYABCAAACAAQAJQQAAACEAAAAAAAAAACWAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFAAAsqgAALBQAVKALC0UsFAsoBUosFC1KAVBQLBULQVBUFAAAAAAAAAIVBUAIIVBYABBYAAhUIAIVAAIWAAQWAAAgACJYAAAhYAAQAgAAgKACJYAAAAAAAAAAAJYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAUAAKBQAAAVKALBQALFtBUoBUFBUosLUosFSgAFQVKoFQVBUFSgAAAhUFQlQWAAIVBUAABBUIAIVAAAQWAIVAAAIWAACEAAQFIAAAQJQQAAAAAggAAAAAAAAAAACWAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFAACgVKAAAAUACxVAEqxVBUoBUFAsFSqsFSgFQVKAAAVBUFQVBUFQVBUFQVAAAIVBYAAiVBYAAhUFgACFgWAAQAAAEAIAECUAEACFgAABQQAIVCAoAIAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAUAKAAsoAAAAsFABUtBALUVQVBQAVBQLBUqgVBUoABUFQVBUFAShBUFQVBUAAhUFQAgABBYAAACBYAAhYAAhUFgAAgBAAAAEQAAAAAAgAAAAACAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFACgAAVKAAAAVKAAVLQAKsFAsFSgAFQUAFQVKoACwVBUFQVBUFQVBUFQAACJUFQWAAAQVBUAABBUAABBYAAAIAQAAACRUVYAQAAAAIAAAAAgAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABQAAAoCwUAAAAFSgAFS0ACrBUoBUFAABUFQUAAAFQtQVBUFQVBUFQlQAAAEFQWAAAAAQWAAAQWAAAACEFQAAACFgBAAAAAABCAoAAAIAAAAAAAAQWAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABQAAAoAFAAAAAoAAKAUCgKAAAFAABYFAAAAAAAAAAAAAAAgAAAAAIAAAACAAAACAIAAQAFBEFBAAAAACAoiAACgAgAAAAAA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"
+            ></image>
+          </defs>
+        </svg>
+        <div class="w-[1920px] h-[1668.19px] absolute left-0 top-[3394.83px] bg-[#090915]">
+          <svg
+            width="1920"
+            height="1670"
+            viewBox="0 0 1920 1670"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+            class="w-[1920px] h-[1668.19px] absolute left-0 top-0"
+            preserveAspectRatio="none"
+          >
+            <g clip-path="url(#clip0_4_75)">
+              <path
+                d="M0 1.79168C0.164344 2.13241 0.412947 2.42554 0.722264 2.64331C1.03158 2.86108 1.39137 2.99629 1.76756 3.03613C1.71614 3.46897 1.50788 3.86797 1.18217 4.15764C0.856463 4.44731 0.435887 4.60758 0 4.60813V5.05035C0.435887 5.05089 0.856463 5.21116 1.18217 5.50083C1.50788 5.79051 1.71614 6.1895 1.76756 6.62235C1.3916 6.66196 1.03196 6.79684 0.722661 7.01421C0.413364 7.23158 0.164635 7.52426 0 7.86457L0 8.82812H0.222222C0.222779 8.39229 0.383061 7.97177 0.672743 7.64613C0.962425 7.3205 1.36142 7.11233 1.79422 7.06101C1.83446 7.43702 1.96983 7.79658 2.18756 8.10576C2.40529 8.41494 2.69821 8.66355 3.03867 8.82812H4.96578C5.30624 8.66355 5.59915 8.41494 5.81689 8.10576C6.03462 7.79658 6.16999 7.43702 6.21022 7.06101C6.64263 7.11283 7.04108 7.32122 7.33031 7.6468C7.61954 7.97239 7.77951 8.39263 7.78 8.82812H8V7.86457C7.83566 7.52385 7.58705 7.23071 7.27774 7.01294C6.96842 6.79517 6.60863 6.65996 6.23244 6.62013C6.28436 6.18768 6.49284 5.78922 6.8185 5.5C7.14416 5.21078 7.56445 5.05083 8 5.05035V4.61035C7.56411 4.6098 7.14354 4.44954 6.81783 4.15986C6.49212 3.87019 6.28386 3.47119 6.23244 3.03835C6.60863 2.99851 6.96842 2.86331 7.27774 2.64553C7.58705 2.42776 7.83566 2.13463 8 1.7939V0.828125H7.78C7.77944 1.26396 7.61916 1.68448 7.32948 2.01012C7.0398 2.33576 6.64081 2.54392 6.208 2.59524C6.16763 2.21909 6.03207 1.85945 5.81409 1.55025C5.59612 1.24106 5.30293 0.99253 4.96222 0.828125L3.03778 0.828125C2.69732 0.992704 2.4044 1.24131 2.18667 1.55049C1.96894 1.85967 1.83357 2.21923 1.79333 2.59524C1.36069 2.54372 0.961911 2.33547 0.672411 2.00985C0.38291 1.68423 0.222753 1.26383 0.222222 0.828125L0 0.828125V1.79168ZM4 8.60813C3.56411 8.60758 3.14354 8.44731 2.81783 8.15764C2.49212 7.86797 2.28386 7.46897 2.23244 7.03612C2.60863 6.99629 2.96842 6.86108 3.27774 6.64331C3.58705 6.42554 3.83566 6.13241 4 5.79168C4.16434 6.13241 4.41295 6.42554 4.72226 6.64331C5.03158 6.86108 5.39137 6.99629 5.76756 7.03612C5.71614 7.46897 5.50788 7.86797 5.18217 8.15764C4.85646 8.44731 4.43589 8.60758 4 8.60813ZM7.03645 4.82812C6.69598 4.9927 6.40307 5.24131 6.18534 5.55049C5.9676 5.85967 5.83223 6.21923 5.792 6.59524C5.3568 6.54735 4.95458 6.34055 4.66241 6.01446C4.37024 5.68838 4.20868 5.26595 4.20868 4.82812C4.20868 4.3903 4.37024 3.96787 4.66241 3.64179C4.95458 3.3157 5.3568 3.1089 5.792 3.06101C5.83223 3.43702 5.9676 3.79658 6.18534 4.10576C6.40307 4.41494 6.69598 4.66355 7.03645 4.82812ZM4 1.05035C4.43589 1.05089 4.85646 1.21116 5.18217 1.50083C5.50788 1.79051 5.71614 2.1895 5.76756 2.62235C5.3916 2.66196 5.03196 2.79684 4.72266 3.01421C4.41336 3.23158 4.16463 3.52426 4 3.86457C3.83566 3.52384 3.58705 3.23071 3.27774 3.01294C2.96842 2.79517 2.60863 2.65996 2.23244 2.62013C2.28436 2.18768 2.49284 1.78922 2.8185 1.5C3.14416 1.21078 3.56445 1.05083 4 1.05035ZM2.208 3.06101C2.6432 3.1089 3.04542 3.3157 3.33759 3.64179C3.62976 3.96787 3.79132 4.3903 3.79132 4.82812C3.79132 5.26595 3.62976 5.68838 3.33759 6.01446C3.04542 6.34055 2.6432 6.54735 2.208 6.59524C2.16777 6.21923 2.0324 5.85967 1.81466 5.55049C1.59693 5.24131 1.30402 4.9927 0.963556 4.82812C1.30402 4.66355 1.59693 4.41494 1.81466 4.10576C2.0324 3.79658 2.16777 3.43702 2.208 3.06101Z"
+                fill="#090915"
+              ></path>
+            </g>
+            <defs>
+              <clipPath id="clip0_4_75">
+                <rect width="8" height="8" fill="white" transform="translate(0 0.828125)"></rect>
+              </clipPath>
+            </defs>
+          </svg>
+          <div class="w-[1187px] h-[468px] absolute left-[420px] top-[544.17px]">
+            <div class="w-[617.3px] h-[464.03px] absolute left-[569.69px] top-[27px]">
+              <div
+                class="w-[166.05px] h-[51.19px] absolute left-[172.31px] top-[413px] rounded-[100px] bg-[#29c4a9]"
+              >
+                <p class="absolute left-7 top-[11px] text-base font-medium text-left text-white">
+                  Review Docs
+                </p>
+                <p class="absolute left-[130.84px] top-3 text-base text-left text-white"></p>
+              </div>
+            </div>
+            <div
+              class="w-[162.92px] h-[51.19px] absolute left-32 top-[9px] rounded-[100px] bg-[#29c4a9]"
+            >
+              <p class="absolute left-7 top-[11px] text-base font-medium text-left text-white">
+                Join Discord
+              </p>
+              <p class="absolute left-[127.72px] top-3 text-base text-left text-white"></p>
+            </div>
+            <div class="w-[1080px] h-[481.36px] absolute left-[-419px] top-[-258px]">
+              <div class="w-[510.3px] h-[368.05px] absolute left-0 top-[27px]"></div>
+              <div
+                class="w-[175.36px] h-[51.19px] absolute left-[1185px] top-[-226px] rounded-[100px] bg-[#29c4a9]"
+              >
+                <p class="absolute left-7 top-[11px] text-base font-medium text-left text-white">
+                  Join Telegram
+                </p>
+                <p class="absolute left-[140.16px] top-3 text-base text-left text-white"></p>
+              </div>
+              <div class="w-[411px] h-[383.49px] absolute left-[667.99px] top-[54.87px]"></div>
+            </div>
+          </div>
+          <div class="w-[1254px] h-[1051px] absolute left-[400.99px] top-[-333.13px]"></div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
